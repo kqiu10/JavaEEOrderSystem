@@ -1,0 +1,5 @@
+com/example/imooc/dataobject/OrderDetail.class
+com/example/imooc/repository/ProductCategoryRepository.class
+com/example/imooc/dataobject/ProductCategory.class
+com/example/imooc/dataobject/OrderMaster.class
+com/example/imooc/dto/OrderDTO.class
