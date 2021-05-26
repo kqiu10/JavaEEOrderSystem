@@ -16,6 +16,7 @@ import com.example.imooc.service.OrderService;
 import com.example.imooc.utils.ResultVOUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+<<<<<<< HEAD
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.util.CollectionUtils;
@@ -24,11 +25,20 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+=======
+import org.springframework.util.CollectionUtils;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+>>>>>>> origin/main
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 import java.util.HashMap;
+<<<<<<< HEAD
 import java.util.List;
+=======
+>>>>>>> origin/main
 import java.util.Map;
 
 /**
@@ -64,6 +74,7 @@ public class BuyerOrderController {
 
     }
     //订单列表
+<<<<<<< HEAD
     public ResultVO<List<OrderDTO>> list(@RequestParam("openid") String openid, @RequestParam(value = "page", defaultValue = "0") Integer page,
                                          @RequestParam(value = "size", defaultValue = "10") Integer size) {
         if (StringUtils.isEmpty(openid)) {
@@ -77,6 +88,9 @@ public class BuyerOrderController {
 
     }
 
+=======
+    public ResultVO
+>>>>>>> origin/main
     //单个订单
     //取消订单
 
